@@ -17,11 +17,12 @@ export default function WeatherForescast(props) {
       <div className="row">
         <div className="col">
           <div className="forecastDay">Thu</div>
-
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-            alt=""
-          />
+          <div>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+              alt=""
+            />
+          </div>
 
           <div className="weatherTemperature">
             <span className="forecastTempMax">19°</span>
